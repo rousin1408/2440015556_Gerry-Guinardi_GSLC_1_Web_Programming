@@ -1,6 +1,8 @@
 @extends('navbar')
 @section('content')
     <br>
+    <h1 style="color: white; padding-left:10px">Faculty At Binus Malang</h1>
+    <br>
     <table class="table table-dark table-striped">
         <tr>
             <th scope="col">Fakultas</th>

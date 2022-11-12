@@ -1,9 +1,11 @@
 @include('navbar');
+<h1 style="color: white; padding-left:10px">Student At Binus Malang</h1>
+<br>
 <table class="table table-dark table-striped">
     <tr>
-        <th scope="col">NIM</th>
-        <th scope="col">Nama</th>
-        <th scope="col">Jurusan</th>
+        <th scope="col"><b style="font-size: 20px">NIM</b></th>
+        <th scope="col"><b style="font-size: 20px"> Nama</b></th>
+        <th scope="col"><b style="font-size: 20px">Jurusan</b></th>
     </tr>
     @foreach ($mhs as $m)
         <tr>
